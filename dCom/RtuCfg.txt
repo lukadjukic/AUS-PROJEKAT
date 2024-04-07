@@ -1,0 +1,8 @@
+STA 56
+TCP 51589
+
+HR_INT  1 2600  0  0   4095  1200  AO  @AnaOut 4
+DO_REG  2 3100   0  0      1     0  DO  @DigOut 2
+HR_INT  1 2601  0  0   4095  1200  AO  @AnaOut2 4
+IN_REG  3 3800  0  0   4095  2000  AI  @AnaIn 4
+DI_REG  1 4600  0  0      1     0  DI  @DigIn 2
